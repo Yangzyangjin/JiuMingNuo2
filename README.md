@@ -1,5 +1,7 @@
 # jiumingnuo
 # install dependencies
+
+```
 npm install 
 
 # serve with hot reload at localhost:8080
@@ -20,3 +22,4 @@ npm run e2e
 
 # run all tests
 npm test
+```
