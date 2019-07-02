@@ -1,18 +1,19 @@
 <template>
   <div class="page" id="product">
     <div>
-      <img src="../images/product.png" class="img_100">
+      <img src="../images/product.png" class="img_100" />
     </div>
     <div class="ui-cell ui-cell-sa">服务项目</div>
     <div class="ui-cell ui-cell-sb main">
       <div class="ui-cell ui-cell-cl">
         <div class="img_101">
-          <img src="../images/icon_1.png" alt srcset class="img_100">
+          <img src="../images/icon_1.png" alt srcset class="img_100" />
         </div>
         <div class="main_body">
           <div>门头牌匾</div>
           <div></div>
-          <div>一流设计，精细制作
+          <div>
+            一流设计，精细制作
             让人一目不忘
           </div>
         </div>
@@ -20,7 +21,7 @@
 
       <div class="ui-cell ui-cell-cl">
         <div class="img_102">
-          <img src="../images/icon_2.png" alt srcset class="img_100">
+          <img src="../images/icon_2.png" alt srcset class="img_100" />
         </div>
         <div class="main_body">
           <div>亮化工程</div>
@@ -31,9 +32,9 @@
           </div>
         </div>
       </div>
-       <div class="ui-cell ui-cell-cl">
+      <div class="ui-cell ui-cell-cl">
         <div class="img_102">
-          <img src="../images/icon_2.png" alt srcset class="img_100">
+          <img src="../images/icon_2.png" alt srcset class="img_100" />
         </div>
         <div class="main_body">
           <div>精简装订</div>
@@ -47,20 +48,19 @@
 
       <div class="ui-cell ui-cell-cl">
         <div class="img_103">
-          <img src="../images/icon_3.png" alt srcset class="img_100">
+          <img src="../images/icon_3.png" alt srcset class="img_100" />
         </div>
         <div class="main_body">
           <div>雕刻广告</div>
-          <div>
-          </div>
-          <div>
-          </div>
+          <div></div>
+          <div></div>
         </div>
       </div>
-      <hr>
+    </div>
+    <div class="ui-cell ui-cell-sb main">
       <div class="ui-cell ui-cell-cl">
         <div class="img_104">
-          <img src="../images/icon_4.png" alt srcset class="img_100">
+          <img src="../images/icon_4.png" alt srcset class="img_100" />
         </div>
         <div class="main_body">
           <div>高速出图</div>
@@ -71,9 +71,9 @@
           </div>
         </div>
       </div>
-       <div class="ui-cell ui-cell-cl">
+      <div class="ui-cell ui-cell-cl">
         <div class="img_102">
-          <img src="../images/icon_2.png" alt srcset class="img_100">
+          <img src="../images/icon_2.png" alt srcset class="img_100" />
         </div>
         <div class="main_body">
           <div>工地广告</div>
@@ -84,9 +84,9 @@
           </div>
         </div>
       </div>
-       <div class="ui-cell ui-cell-cl">
+      <div class="ui-cell ui-cell-cl">
         <div class="img_102">
-          <img src="../images/icon_2.png" alt srcset class="img_100">
+          <img src="../images/icon_2.png" alt srcset class="img_100" />
         </div>
         <div class="main_body">
           <div>数码快印</div>
@@ -97,7 +97,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -113,7 +112,8 @@ export default {
 
 <style scoped>
 .page {
-  height: 676px;
+  /* height: 676px; */
+  height: 1000px;
   /* width: 1920px; */
   background: #f3f3f3;
 }
@@ -132,12 +132,12 @@ export default {
 }
 .main {
   margin: 0px 260px;
+  margin-bottom: 80px;
 }
 .main_body div:nth-of-type(1) {
   width: 294px;
   height: 42px;
   font-size: 42px;
-  
 }
 .main_body div:nth-of-type(2) {
   width: 61px;

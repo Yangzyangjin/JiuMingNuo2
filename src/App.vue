@@ -50,6 +50,6 @@ export default {
   right: 10px;
 }
 #app{
-  width: 1920px;
+  width: 100%;
 }
 </style>
